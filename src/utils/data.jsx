@@ -87,10 +87,10 @@ export const projects = [
   {
     title: "E-commerce BANGBRUS.ID",
     platform: "Web",
-    link: "https://github.com/apocalcrk/siatma-release",
+    link: "",
     description:
       "The Bangbrus.ID e-commerce website aims to expand its market, enhance shopping convenience and trust, provide complete product information, optimize operations, maximize sales through promotions, and build long-term relationships with customers. This platform is designed to support business growth and strengthen the brand professionally.",
-    images: [scafSiatma, loginSiatma, homeSiatma, calSiatma, profSiama],
+    images: [],
     techStack: ["ReactJS", "ExpressJS", "MongoDB", "Javascript"],
     apis: [],
   },
@@ -100,7 +100,7 @@ export const projects = [
     link: "https://github.com/budiprasetio/Chatbot-AI-LSTM",
     description:
       "The AI Chatbot project with LSTM is a deep learning-based chatbot application developed using Python, Flask, and an LSTM network to classify user intents and provide relevant responses. Equipped with an interactive web interface, dynamic retraining capabilities, customizable intents, and a lightweight MySQL database, this chatbot is flexible, user-friendly, and easy to integrate.",
-    images: [homeAtma, detailAtma, profAtma, dashboardAtma],
+    images: [],
     techStack: ["Python", "Flask", "TensorFlow", "Keras", "Javascript", "MySQL"],
     apis: [],
   },
@@ -110,7 +110,7 @@ export const projects = [
     link: "https://github.com/budiprasetio/Word-Guessing-Game",
     description:
       "The Guess The Word Game is a simple, web-based game built with HTML, CSS, and JavaScript, where players guess a word based on a given hint. It features a random word generator, hint system, a 30-second countdown timer, dynamic alerts for correct or incorrect answers, and a responsive design optimized for various screen sizes. The game has a modern UI with animations and is structured with an HTML file, a CSS styling file, JavaScript for game logic, and a word collection file. To play, users click Refresh Word, read the hint, enter their guess, and press Check Word to verify their answer.",
-    images: [homeKkn, umkmKkn, KontakKkn, adminKkn],
+    images: [],
     techStack: ["Javascript"],
     apis: [],
   },
@@ -120,8 +120,8 @@ export const projects = [
     link: "https://github.com/budiprasetio/Simple-CRUD-API-Notes",
     description:
       "The Simple CRUD API Notes project is a web application built with Node.js and Express.js for managing notes, featuring add, update, retrieve, and delete functions via an API. Users can easily configure the environment, install dependencies, and run the server. Technologies used include Node.js, Express.js, dotenv, and CORS.",
-    images: [homeKkn, umkmKkn, KontakKkn, adminKkn],
-    techStack: ["NodeJS", "ExpressJS", "Dotenv", "CORS", "MySQL"],
+    images: [],
+    techStack: ["NodeJS", "ExpressJS", "Dotenv", "CORS", "MySQL", "Javascript"],
     apis: [],
   },
 ];
@@ -186,3 +186,48 @@ export const skills = {
     ],
   },
 };
+
+// CONTOH YANG ADA GAMBAR DI VIEWS ALL PROJECT
+
+// export const projects = [
+//   {
+//     title: "E-commerce BANGBRUS.ID",
+//     platform: "Web",
+//     link: "https://github.com/apocalcrk/siatma-release",
+//     description:
+//       "The Bangbrus.ID e-commerce website aims to expand its market, enhance shopping convenience and trust, provide complete product information, optimize operations, maximize sales through promotions, and build long-term relationships with customers. This platform is designed to support business growth and strengthen the brand professionally.",
+//     images: [scafSiatma, loginSiatma, homeSiatma, calSiatma, profSiama],
+//     techStack: ["ReactJS", "ExpressJS", "MongoDB", "Javascript"],
+//     apis: [],
+//   },
+//   {
+//     title: "ITEBA Chatbot",
+//     platform: "Web",
+//     link: "https://github.com/budiprasetio/Chatbot-AI-LSTM",
+//     description:
+//       "The AI Chatbot project with LSTM is a deep learning-based chatbot application developed using Python, Flask, and an LSTM network to classify user intents and provide relevant responses. Equipped with an interactive web interface, dynamic retraining capabilities, customizable intents, and a lightweight MySQL database, this chatbot is flexible, user-friendly, and easy to integrate.",
+//     images: [homeAtma, detailAtma, profAtma, dashboardAtma],
+//     techStack: ["Python", "Flask", "TensorFlow", "Keras", "Javascript", "MySQL"],
+//     apis: [],
+//   },
+//   {
+//     title: "Guess The Word Game",
+//     platform: "Web",
+//     link: "https://github.com/budiprasetio/Word-Guessing-Game",
+//     description:
+//       "The Guess The Word Game is a simple, web-based game built with HTML, CSS, and JavaScript, where players guess a word based on a given hint. It features a random word generator, hint system, a 30-second countdown timer, dynamic alerts for correct or incorrect answers, and a responsive design optimized for various screen sizes. The game has a modern UI with animations and is structured with an HTML file, a CSS styling file, JavaScript for game logic, and a word collection file. To play, users click Refresh Word, read the hint, enter their guess, and press Check Word to verify their answer.",
+//     images: [homeKkn, umkmKkn, KontakKkn, adminKkn],
+//     techStack: ["Javascript"],
+//     apis: [],
+//   },
+//   {
+//     title: "Simple Crud API Notes",
+//     platform: "Web",
+//     link: "https://github.com/budiprasetio/Simple-CRUD-API-Notes",
+//     description:
+//       "The Simple CRUD API Notes project is a web application built with Node.js and Express.js for managing notes, featuring add, update, retrieve, and delete functions via an API. Users can easily configure the environment, install dependencies, and run the server. Technologies used include Node.js, Express.js, dotenv, and CORS.",
+//     images: [homeKkn, umkmKkn, KontakKkn, adminKkn],
+//     techStack: ["NodeJS", "ExpressJS", "Dotenv", "CORS", "MySQL"],
+//     apis: [],
+//   },
+// ];

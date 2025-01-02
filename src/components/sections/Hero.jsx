@@ -84,8 +84,8 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="hidden md:block place-items-end" ref={imageRef}>
-            <img src={Budi} alt="Hero" className="w-96 h-96 object-cover rounded-md" />
+          <div className="relative w-96 h-96 mx-auto md:ml-20" ref={imageRef}>
+            <img src={Budi} alt="Hero" className="absolute inset-0 w-full h-full object-contain md:object-cover rounded-md" />
           </div>
         </div>
       </section>
@@ -96,3 +96,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+// w-96 h-96 object-cover rounded-md
