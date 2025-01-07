@@ -149,7 +149,7 @@ export const skills = {
     title: "Programming Languages",
     icon: FaCode,
     skills: [
-      { name: "PHP", level: 70 },
+      { name: "PHP", level: 80 },
       { name: "JavaScript", level: 90 },
       { name: "TypeScript", level: 90 },
       { name: "Python", level: 80 },

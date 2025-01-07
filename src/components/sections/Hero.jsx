@@ -14,8 +14,6 @@ const Hero = () => {
   const buttonsRef = useRef([]);
   const imageRef = useRef(null);
 
-  const isMobile = () => window.innerWidth <= 768;
-
   useEffect(() => {
     gsap.fromTo(headingRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 1, ease: "power2.out" });
     gsap.fromTo(subtitleRef.current, { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 1, ease: "power2.out", delay: 0.2 });
@@ -46,11 +44,7 @@ const Hero = () => {
   };
 
   const handleCVClick = () => {
-    if (isMobile()) {
-      window.location.href = CV;
-    } else {
-      openModal();
-    }
+    openModal();
   };
 
   return (
@@ -96,5 +90,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
-// w-96 h-96 object-cover rounded-md
