@@ -1,4 +1,4 @@
-import { UAJY, Mattcom, SMKHasanah, SMA17, Iteba, IL } from "./icons";
+import { UAJY, Mattcom, SMKHasanah, SMA17, Iteba, IL, PEGA } from "./icons";
 
 import { FaCode, FaServer, FaPalette, FaTools } from "react-icons/fa";
 
@@ -22,6 +22,14 @@ import profAtma from "../assets/images/projects/atmak/3.png";
 import dashboardAtma from "../assets/images/projects/atmak/4.png";
 
 export const Experiences = [
+  {
+    company: "Pegaunihan Technology Indonesia",
+    position: "Junior Management Information Systems",
+    duration: "Jan 2025 - Present",
+    desc: "",
+    skills: "",
+    image: <PEGA />,
+  },
   {
     company: "Infinite Learning Indonesia",
     position: "Mentor Technical Web",

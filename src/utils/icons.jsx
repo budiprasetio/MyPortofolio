@@ -8,12 +8,16 @@ import smkHasanah from "../assets/images/smk.jpg";
 import sma17 from "../assets/images/sma17.jpg";
 import iteba from "../assets/images/logo-iteba.png";
 import il from "../assets/images/ILLOGO.jpg";
+import pega from "../assets/images/pegaunihan.png";
 
 export function UAJY() {
   return <img src={uajyImage} alt="UAJY" />;
 }
 export function IL() {
   return <img src={il} alt="Infinite Learning" />;
+}
+export function PEGA() {
+  return <img src={pega} alt="Pegaunihan Technology Indonesia" />;
 }
 
 export function Mattcom() {
