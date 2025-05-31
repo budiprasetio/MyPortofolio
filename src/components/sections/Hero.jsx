@@ -62,7 +62,9 @@ const Hero = () => {
                 A Web Developer and Tech Enthusiast based in Batam, Indonesia
               </h2>
               <p ref={textRef} className="text-gray-600 transform transition-transform duration-300 hover:scale-105">
-                I have been developing web for 1,5 years. I have worked with various clients. I am currently working as a freelance developer.
+                I have been working in web development for the past 1.5 years, collaborating with a variety of clients from different backgrounds. Currently, I work as a freelance developer. Beyond development, I have a strong interest in
+                IT Support roles. I genuinely enjoy troubleshooting technical issues, assisting users with system-related problems, and ensuring smooth daily technology operations within an organization. I find great satisfaction in helping
+                others work more efficiently by leveraging technology.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
